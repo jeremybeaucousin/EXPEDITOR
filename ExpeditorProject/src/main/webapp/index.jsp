@@ -10,7 +10,7 @@
     <div class="wrapper">
 	<div class="container">
 		<!--<h1>Login</h1>-->
-		<form class="form" method="post" action="login.html">
+		<form class="form" method="post" action="index.html">
 			<input type="text" placeholder="Login" >
 			<input type="password" placeholder="Password">
 			<button type="submit" id="login-button">Sign In</button>
