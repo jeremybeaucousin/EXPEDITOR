@@ -5,6 +5,7 @@ package fr.eni.model.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
@@ -23,6 +24,7 @@ public class Article {
 
 	@Id
 	@Column(name="ID_ARTICLE")
+	@GeneratedValue
 	private int idArticle;
 	@Column(name="LIBELLE_ARTICLE")
 	private String libelle;

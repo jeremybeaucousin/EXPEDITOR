@@ -5,6 +5,7 @@ package fr.eni.model.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -18,6 +19,7 @@ public class TypeUtilisateur {
 
 	@Column(name="ID_TYPE_UTILISATEUR")
 	@Id
+	@GeneratedValue
 	private int idTypeUtilisateur;
 	
 	@Column(name="LIBELLE")
