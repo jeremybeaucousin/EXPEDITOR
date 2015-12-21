@@ -5,186 +5,38 @@
   padding: 0;
   font-weight: 300;
 }
-body {
+#bod {
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
   font-weight: 300;
 }
-body ::-webkit-input-placeholder {
+#bod ::-webkit-input-placeholder {
   /* WebKit browsers */
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
   font-weight: 300;
 }
-body :-moz-placeholder {
+
+#bod :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
   opacity: 1;
   font-weight: 300;
 }
-body ::-moz-placeholder {
+#bod ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
   opacity: 1;
   font-weight: 300;
 }
-body :-ms-input-placeholder {
+#bod :-ms-input-placeholder {
   /* Internet Explorer 10+ */
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
   font-weight: 300;
 }
-
-
-.userindex{
-	width:1%;
-	height: 20%;
-	position:absolute;
-	border:2px solid white;
-	transition: all 2s;
-	cursor:pointer;
-	font-size: 40px;
-	padding: 20px;
-	z-index:2;
-	opacity:0.6;
-	color: white;
-	border-radius: 3px;
-}
-
-.userindex:hover{
-	opacity:1;
-	font-size: 60px;
-	padding: 50px;
-}
-
-.userindex span{
-opacity:0;
-transition: all 3s;
-}
-
-
-#administrateur{
-	top:10%;
-	left:calc(50% - 40%);
-	text-align:left;
-}
-
-#stagiaire{
-	top:calc(50% - 10%);
-	right:calc(50% - 40%);
-	text-align:right;
-}
-#candidat{
-	bottom:10%;
-	left:calc(50% - 40%);
-	text-align:left;
-}
-
-
-
-.wrapperGestion{
-  background: #EEE;
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-#title{
-	color: black;
-	position: absolute;
-	font-size: 30px;
-}
-
-.ctrlgestion{
-	width:10%;
-	height:40px;
-	opacity:0.6;
-	display: inline-block;
-	transition: all 1s;
-	float:right;
-	margin-left: 5px;
-	cursor:pointer;
-	text-align: center;
-	line-height:2;
-	font-weight: 800;
-}
-
-.ctrlgestion:hover{
-	opacity:1;
-}
-
-
-#ctrlgestion1{
-	background: rgb(250, 210, 50);
-}
-
-#ctrlgestion2{
-	background: rgb(243, 123, 29);
-}
-
-#ctrlgestion3{
-	background: #dd514c;
-}
-
-#ctrlgestion4{
-	background: #993366;
-}
-
-#ctrlgestion5{
-	background: #5eb95e;
-}
-
-#ctrlgestion6{
-	background: rgb(128, 88, 165);
-}
-
-#ctrlgestion7{
-	background: #1f8dd6;
-}
-
-#ctrlgestion8{
-	background:#336699;
-}
-
-
-.ctrl-ctrlgestion{
-	width:2%;
-	height:40px;
-	opacity:0.6;
-	display: block;
-	transition: all 1s;
-	cursor:pointer;
-	position:absolute;
-	text-align: center;
-	line-height:2;
-	font-weight: 800;
-}
-
-.ctrl-ctrlgestion:hover{
-	opacity:1;
-	width:10%;
-}
-
-
-#ctrl-ctrlgestion1{
-	top:200px;
-	background: rgb(243, 123, 29);
-}
-
-#ctrl-ctrlgestion2{
-	top:260px;
-	background: #993366;
-}
-
-#ctrl-ctrlgestion3{
-	top:320px;
-	background: rgb(128, 88, 165);
-}
-
 
 .wrapper {
   background: #00BFFF;
@@ -217,12 +69,12 @@ transition: all 3s;
           transition-timing-function: ease-in-put;
   font-weight: 200;
 }
-form {
+.formLog {
   padding: 20px 0;
   position: relative;
   z-index: 2;
 }
-form input {
+.formLog input {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -241,15 +93,15 @@ form input {
           transition-duration: 1s;
   font-weight: 300;
 }
-form input:hover {
+.formLog input:hover {
   background-color: rgba(255, 255, 255, 0.4);
 }
-form input:focus {
+.formLog input:focus {
   background-color: white;
   width: 300px;
   color: #53e3a6;
 }
-form button {
+.formLog button {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -265,7 +117,7 @@ form button {
   -webkit-transition-duration: 0.25s;
           transition-duration: 0.25s;
 }
-form button:hover {
+.formLog button:hover {
   background-color: #f5f7f9;
 }
 .bg-bubbles {

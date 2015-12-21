@@ -6,11 +6,11 @@
         <link rel="stylesheet" href="<%=request.getContextPath()%>/resources/css/style.css" />
   </head>
   
-  <body>
+  <body id="bod">
     <div class="wrapper">
 	<div class="container">
 		<!--<h1>Login</h1>-->
-		<form class="form" method="post" action="index.html">
+		<form class="formLog" method="post" action="index.html">
 			<input type="text" placeholder="Login" >
 			<input type="password" placeholder="Password">
 			<button type="submit" id="login-button">Sign In</button>
